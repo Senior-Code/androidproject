@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:text="Title"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spntitle"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:id="@+id/regfirstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Enter FirstName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/reglastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Enter LastName"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/txtfullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"/>
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Enter Username"/>
+    <EditText
+        android:id="@+id/edtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Enter Password"/>
+    <EditText
+        android:id="@+id/edtconfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Confirm Password"/>
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginRight="80sp"
+        android:text="Next"/>
+
+</LinearLayout>

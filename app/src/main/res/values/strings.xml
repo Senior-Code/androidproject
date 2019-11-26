@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="norton_pizza">Norton Pizza</string>
+    <string name="toppings">Topping</string>
+    <string name="login_page">Login</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="mushroom">Mushroom</string>
+    <string name="result">result</string>
+    <string name="place_the_order">Order here</string>
+    <string name="please_rate_out_services">Please Rate Out Services</string>
+    <string name="take_out">Take-Out</string>
+    <string name="eat_in">Eat-In</string>
+    <string name="delivery_method">Delivery Method</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="Incorrect">Incorrect Username and Password</string>
+    <string name="show_result">Show Result</string>
+    <string name="forgot_password">| <u>forgot password</u> |</string>
+    <string name="register">| <u>register</u> |</string>
+    <string name="record"></string>
+
+</resources>

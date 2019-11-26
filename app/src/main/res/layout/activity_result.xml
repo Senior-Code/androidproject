@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="start"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Below is the information the report of your Order:"
+        android:fontFamily="casual"
+        android:layout_marginLeft="30sp"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtresult2"
+        android:layout_marginTop="05sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginLeft="30sp"
+        android:text="Result:"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btnclose"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:text="Close"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
